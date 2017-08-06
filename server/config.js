@@ -1,6 +1,6 @@
 module.exports = {
-  AUTH0_DOMAIN: 'avariaguinee.auth0.com',
-  AUTH0_API_AUDIENCE: 'http://localhost:8083/api/', /* likely 'http://localhost:8083/api/' */
-  MONGO_URI: process.env.MONGO_URI || 'mongodb://rsvp-user:rsvp-password@ds153422.mlab.com:53422/rsvp',
-  NAMESPACE: 'http://myapp.com/roles'
+  AUTH0_DOMAIN: '[YOUR_AUTH0_DOMAIN]', // e.g., kmaida.auth0.com
+  AUTH0_API_AUDIENCE: '[YOUR_AUTH0_API_NAME]', // e.g., 'http://localhost:8083/api/'
+  MONGO_URI: process.env.MONGO_URI || 'mongodb://[USER]:[PASSWORD]@[DS######].mlab.com:[PORT]/[DB_NAME]',
+  NAMESPACE: '[YOUR_AUTH0_ROLES_RULES_NAMESPACE]' // e.g., http://myapp.com/roles
 };
